@@ -1,5 +1,3 @@
 # chatApp-v2
 
-Realisé par Samson NZUMGUENG with symfony.
-
-Symfony 4 / PHP
+Realized by Samson NZUMGUENG with symfony 5
