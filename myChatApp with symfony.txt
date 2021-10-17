@@ -1,0 +1,34 @@
+
+
+
+ ->  composer create-project symfony/website-skeleton myChatApp
+ -> cd myChatApp
+ -> php bin/console make:user
+	- User
+	- (yes)
+	- username
+	- (yes)
+   ./vendor/symfony/security-core/User/User.php
+
+ -> php bin/console make:auth
+	- [1]
+	- AppAuthentificator
+	- (yes)
+	- (yes)
+
+ -> php bin/console make:controller
+	-IndexController
+
+symfony serve:start
+Ctrl + C to shutdown
+symfony serve:stop
+
+  php bin/console doctrine:database:create
+
+  php bin/console doctrine:schema:update --force
+
+  php bin/console security:encode-password
+
+  php bin/console make:entity
+
+   php bin/console make:entity --regenerate
