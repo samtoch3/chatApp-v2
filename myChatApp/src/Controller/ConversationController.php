@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Conversation;
 use App\Entity\Participant;
-use App\Entity\Message;
+use App\Entity\User;
 use App\Repository\ConversationRepository;
 use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
