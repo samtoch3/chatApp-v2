@@ -12,7 +12,7 @@
 
  -> php bin/console make:auth
 	- [1]
-	- AppAuthentificator
+	- AppAuthenticator
 	- (yes)
 	- (yes)
 
@@ -20,7 +20,7 @@
 	-IndexController
 
 symfony serve:start
-Ctrl + C to shutdown
+Ctrl + C to shut down
 symfony serve:stop
 
   php bin/console doctrine:database:create

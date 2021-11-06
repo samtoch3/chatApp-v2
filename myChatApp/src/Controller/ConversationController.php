@@ -41,7 +41,7 @@ class ConversationController extends AbstractController
 
     //#[Route('/{id}', name: 'getConversations')]
     /**
-     * @route("/{id}", name="getConversations")
+     * @Route("/{id}/", name="getConversations")
      * @param Request $request
      * @return JsonResponse
      * @throws \Exception
